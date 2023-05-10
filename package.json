@@ -22,9 +22,8 @@
     "typescript": "^4.9.5"
   },
   "scripts": {
-    "build": "webpack --mode=production --node-env=production",
-    "build:dev": "webpack --mode=development",
-    "start": "webpack serve",
+    "deploy": "next build && next export",
+    "build": "next build",
     "dev": "next"
   },
   "eslintConfig": {
