@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-size: 10px;
+    background: lightgray;
+}
+
+button, select, input {
+    border: none;
+    background: none;
+    outline: none;
+
+    &::selection {
+        border: none;
+        background: none;
+    }
+}
