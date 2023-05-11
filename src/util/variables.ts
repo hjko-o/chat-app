@@ -22,6 +22,15 @@ export const COLOR = {
     BLACK
 };
 
+const TEXT_5 = css`
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  color: ${CHARCOAL_GREY_2};
+`;
+
 const TEXT_4 = css`
   font-size: 1.6rem;
   font-weight: bold;
@@ -63,6 +72,7 @@ const TEXT = css`
 `;
 
 export const FONT = {
+    TEXT_5,
     TEXT_4,
     TEXT_3,
     TEXT_2,
