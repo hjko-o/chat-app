@@ -1,15 +1,13 @@
-import React, {useEffect} from 'react';
-import {useRouter} from "next/router";
+import React, { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 const HomePage = () => {
-    const router = useRouter();
-    useEffect(() => {
-            router.push('/list');
-    }, []);
+  const router = useRouter();
+  useEffect(() => {
+    router.push('/list');
+  }, []);
 
-    return <>
-        HomePage
-    </>;
+  return <>HomePage</>;
 };
 
 export default HomePage;

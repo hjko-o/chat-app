@@ -1,10 +1,12 @@
 import React from 'react';
-import List from "../../src/components/Template/List";
+import List from '../../src/components/Template/List';
 
 const ListPage = () => {
-    return <>
-        <List/>
-    </>;
+  return (
+    <>
+      <List />
+    </>
+  );
 };
 
 export default ListPage;

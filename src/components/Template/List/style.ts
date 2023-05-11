@@ -1,5 +1,5 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-margin-top: 1rem;
+  margin-top: 1rem;
 `;

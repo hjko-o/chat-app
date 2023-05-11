@@ -1,4 +1,4 @@
-import {css} from "styled-components";
+import { css } from 'styled-components';
 
 const PURPLE = '#5b36ac';
 const CHARCOAL_GREY = '#464052';
@@ -11,15 +11,15 @@ const WHITE = '#ffffff';
 const BLACK = '#000000';
 
 export const COLOR = {
-    PURPLE,
-    CHARCOAL_GREY,
-    CHARCOAL_GREY_2,
-    BATTLESHIP_GREY,
-    PALE_GREY,
-    PALE_LILAC,
-    COOL_GREY,
-    WHITE,
-    BLACK
+  PURPLE,
+  CHARCOAL_GREY,
+  CHARCOAL_GREY_2,
+  BATTLESHIP_GREY,
+  PALE_GREY,
+  PALE_LILAC,
+  COOL_GREY,
+  WHITE,
+  BLACK
 };
 
 const TEXT_5 = css`
@@ -72,9 +72,9 @@ const TEXT = css`
 `;
 
 export const FONT = {
-    TEXT_5,
-    TEXT_4,
-    TEXT_3,
-    TEXT_2,
-    TEXT
+  TEXT_5,
+  TEXT_4,
+  TEXT_3,
+  TEXT_2,
+  TEXT
 };
